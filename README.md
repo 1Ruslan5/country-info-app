@@ -30,28 +30,33 @@ JWT_SECRET=qwrsasdjfk1bia
 ``` bash
 git clone <repository-url> cd country-info-app
 ```
+2. **Install dependency:**
     
-2. **Place the `.env` File:**
+``` bash
+yarn install
+```
+
+3. **Place the `.env` File:**
     
     Copy your `.env` file into the root of the project.
     
-3. **Build the Project:**
+4. **Build the Project:**
 
 ``` bash
 yarn run build
 ```
     
-4. **Start Docker & Create the Database:**
+5. **Start Docker & Create the Database:**
 	Ensure Docker is running, then execute:
 ``` bash
 yarn run docker:create
 ```
 
-5. **Run Migrations:**
+6. **Run Migrations:**
 ``` bash
 yarn run migration:run
 ```
-6. **Start the Project in Development Mode:**
+7. **Start the Project in Development Mode:**
 ``` bash
 yarn run start:dev
 ```
