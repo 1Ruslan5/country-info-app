@@ -28,9 +28,10 @@ JWT_SECRET=qwrsasdjfk1bia
 
 1. **Clone the Repository:**
 ``` bash
-git clone <repository-url> cd country-info-app
+git clone https://github.com/1Ruslan5/country-info-app.git
 ```
-2. **Install dependency:**
+
+2. **Move to folder and install dependency:**
     
 ``` bash
 yarn install
